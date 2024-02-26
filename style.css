@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Global styles */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #6E6E6E;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh; /* Ensure body takes at least the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.project-image {
+    width: 200px;
+    height: auto;
+}
+
+/* Introduction styles */
+.introduction {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+/* Header 1 style */
+h1 {
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-weight: 350;
+    background-color: #3C4142;
+    width: auto;
+    box-sizing: border-box;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #BAFF39;
+    color: #00008b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Adjust spacing between navbar and header */
+header {
+    padding-top: 50px;
+}
+
+footer {
+    margin-top: auto;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    left: 0;
+}
+
+.ind-skill {
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    max-width: 200px; 
+    min-width: 150px; 
+}
+
+.ind-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 92px;
+    height: 100%; /* Add this line */
+}
+
+.skill-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem; 
+}
+
+.logo-img {
+    width: 48px;
+    height: 48px;
+}
+
+.featured-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    margin-bottom: 40px;
+  }
+
+.featured-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+  }
+
+  footer {
+    width: 100%;
+    padding: 4rem 0;
+    text-align: center; /* Center the content horizontally */
+}
+
+#footer-arrow-up-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto; /* Center the element horizontally */
+}
+
+.footer-element {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.footer-element:hover {
+    transform: translateY(-5px);
+}
+
+#footer-social-media-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Add some space between the arrow and social media icons */
+}
+
+#footer-social-media-div a {
+    margin: 0 1.8rem; /* Adjust horizontal margin */
+}
+
+/* Optionally, you can adjust the size of the social media icons if needed */
+#footer-social-media-div a img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
