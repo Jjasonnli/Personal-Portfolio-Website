@@ -1,4 +1,4 @@
-# jl4539-website
+# Personal Portfolio Website
 
 This is a personal website I made to showcase my portfolio as well as to share who I am. I hosted the website on Drexel University's TUX servers.
 
